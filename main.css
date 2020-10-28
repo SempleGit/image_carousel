@@ -79,7 +79,7 @@ html {
 }
 
 
-.image-slides.selected {
+.image-slides:hover, .image-slides.selected {
   filter: drop-shadow(2px 4px 6px black);
   transform: scale(1.1);
 }
