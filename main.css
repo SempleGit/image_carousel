@@ -22,7 +22,16 @@ html {
 
 .arrow {
   opacity: 75%;
-  width: 100%;
+  width: 50px;
+  transition: 50ms;
+}
+
+.left:hover {
+  filter: drop-shadow(5px 0px 1px blue);
+}
+
+.right:hover {
+  filter: drop-shadow(-5px 0px 1px blue);
 }
 
 .right {
