@@ -46,17 +46,20 @@ html {
   padding: 25px;
   height: 500px;
   width: 500px;
+  overflow: hidden;
 }
 
 .main-image {
   filter: brightness(25%);
+  transform: translateX(100%);
   width: 100%;
   object-fit: cover;
-  transition: filter ease-out 200ms;
+  transition: filter ease-out 200ms, transform ease-out 200ms;
 }
 
 .display-main {
   filter: none;
+  transform: translateX(0);
 }
 
 .slides {
